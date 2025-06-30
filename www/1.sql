@@ -41,9 +41,9 @@ CREATE TABLE login (
 
 INSERT INTO propriedade (id, nome) VALUES (1, 'Teste');
 
-INSERT INTO login (id, nome, login, senha, id_propriedade) VALUES (1, 'Jordan', 'jordan', '202cb962ac59075b964b07152d234b70', 1);
+INSERT INTO login (id, nome, login, senha, id_propriedade) VALUES (1, 'Teste', 'admin', '202cb962ac59075b964b07152d234b70', 1);
 
-INSERT INTO cultura (id, nome) VALUES (1, 'Fumo');
+INSERT INTO cultura (id, nome) VALUES (1, 'TesteCultura');
 
 INSERT INTO propriedade_cultura (id_propriedade, id_cultura) VALUES (1, 1);
 
