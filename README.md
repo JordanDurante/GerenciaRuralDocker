@@ -42,7 +42,7 @@ docker compose up --build -d
 ### Passo 1: Copiar o 1.sql para dentro do container
 
 ```bash
-docker cp ./www/1.sql gerenciaruraldocker-db-1:/tmp/1.sql
+docker cp ./1.sql gerenciaruraldocker-db-1:/tmp/1.sql
 ```
 
 ### Passo 2: - Entrar no container do banco

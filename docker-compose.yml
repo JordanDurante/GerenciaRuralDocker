@@ -8,7 +8,6 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./www:/var/www/html
       - ./logs:/var/log/apache2
       - ./config/custom-php.ini:/usr/local/etc/php/conf.d/99-custom.ini
     depends_on:
